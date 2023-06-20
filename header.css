@@ -1,0 +1,91 @@
+a{
+    text-decoration: none;
+    color: #3b3636;
+}
+a:hover{
+    color: rgb(0,0, 0, 0.9) ;
+    text-decoration: underline;
+}
+body{
+    margin: 0px;
+    background-color:rgb(24, 162, 162);
+}
+.brand-logo{
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+}
+.header-input:hover{
+    box-shadow: 
+        0px 4px 4px rgba(30, 27, 27, 0.3),
+        0px 6px 6px rgba(61, 58, 58, 0.3),
+        0px 8px 8px rgba(84, 79, 79, 0.3),
+        0px 10px 10px rgba(93, 88, 88, 0.3),
+        0px 12px 12px rgba(117, 105, 105, 0.2),
+        0px 2px 2px rgba(0, 0, 0, 0.45); 
+}
+.header-input::placeholder{
+    color: blue;
+    font-family: Arial;
+    font-size: 19px;
+    opacity: 0.4;
+    text-align: center;
+    animation:reverse;
+    animation-iteration-count: infinite;
+}
+.header-input{
+    margin: 0px;
+    height: 35px;
+    width: 611.99px;
+    border-radius: 12px;
+    border: none;
+}
+.left-nav{
+    display: flex;
+    position: relative;
+    width: 290px;
+    justify-content: space-between;
+    top: 35%;
+    font-size: 14px;
+    margin: 0px 0px 0px 12px;
+}
+.middle-nav{
+    width: 683.34px;
+    margin: 19px 0px 0pc 211px;
+
+}
+.nav-logo{
+    height: 19px;
+    width: 19px;
+}
+nav{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    min-width: 530px;
+    max-width: 100%;
+    height: 70px;
+    background-color: rgb(175, 238, 238);
+    justify-content: space-between;
+    justify-items: normal;
+    z-index: 10;
+}
+.pricing,.product,.contact,.homepage{
+    display: flex;
+}
+.right-nav span{
+    margin: 19px 0px 0pc 0pc;
+    
+}
+.right-nav{
+    display: flex;
+    margin: 0px 0px 0pc 17pc;
+    width: 220px;
+}
+.linking :hover{
+    text-decoration: underline;
+    color: grey;
+    transition-property: all;
+    transition-duration: 30ms;
+    animation-timing-function: ease-in-out;
+}

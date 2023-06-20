@@ -1,0 +1,95 @@
+.contact-wrapper{
+    display: block;
+    position: absolute;
+}
+.hours-of-opening{
+    margin-top: 79px;
+    width: 1156px;
+}
+.H-o-o{
+    text-align: center;
+    margin: 0px 0px 0px 429px;
+}
+.r1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 99px 0px 12px 0px;   
+}
+.consultation-hours:hover,.sales-hours:hover,.product-hours:hover{
+    box-shadow: 
+        3px 4px 4px  rgba(225, 39, 10, 0.1),
+        7px 8px 8px  rgba(175, 32, 32, 0.15),
+        14px 16px 16px  rgba(18, 18, 18, 0.2),
+        16px 18px 18px  rgba(24, 23, 23, 0.29),
+        18px 20px 20px  rgba(24, 23, 23, 0.42);
+}
+.consultation-hours,.sales-hours,.product-hours{
+    margin: 0px 42px 0px 29px;
+    background-color: paleturquoise;
+    width: 477px;
+    height: 270px;
+    border-radius:23px;
+}
+ul{
+    margin: 0px;
+}
+li{
+    margin: 0px;
+}
+.header1{
+    text-align: center;
+    padding-bottom: 13px;
+}
+.titles{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 12px;
+}
+.grid-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+.day{
+    margin-left: 39px;
+}
+.open{
+    margin-left:0px;
+}
+.closed{
+    margin-right: 76px;
+}
+.special-container{
+    margin:29px 0px 0px 0px;
+}
+.contact-us{
+    text-align: center;
+    margin: 39px 0px 0px 44%;
+    font-family: Arial;
+}
+.text,.H-o-o{
+    font-size:32px ;
+    text-align: center;
+    opacity: 0.8;
+}
+.text:hover,.H-o-o:hover{
+    color:black;
+    transition-property: all;
+    opacity: 1.1;
+    transition-duration: 30ms;
+    animation-timing-function: ease-in-out;
+}
+.text{
+    padding: 12px;
+}
+.email-address,.home-address,.telephone-number{
+    padding: 3px;
+    text-transform:uppercase;
+}
+.icon img{
+    height: 39px;
+}
+.emogies{
+    display:flex;
+    margin-left: 46%;
+    justify-content:center;
+}
